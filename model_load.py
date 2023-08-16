@@ -5,7 +5,7 @@ from keras.layers import Input, Dense, Activation, Lambda
 from keras.layers.convolutional import Conv2D
 from keras.layers.pooling import MaxPooling2D
 from keras.layers.normalization.batch_normalization_v1 import BatchNormalization
-from keras.layers.merge import Concatenate
+from keras.layers import concatenate
 from config_reader import config_reader
 import scipy
 import math
